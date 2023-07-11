@@ -1,0 +1,29 @@
+body {
+    background-color: antiquewhite;
+}
+/**inside box **/
+#description{
+    padding-top: 13%;
+    max-height: none;
+}
+
+.box {
+    border: 1px solid black;
+    text-align: center;
+    margin:20px;
+
+}
+ol {
+    list-style-type:none ;
+    
+}
+li {
+    text-decoration: none;
+    color: black;
+}
+ol:hover{border-bottom: 1px solid black;}
+nav ol {
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+}

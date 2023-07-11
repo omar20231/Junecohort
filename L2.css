@@ -8,14 +8,11 @@ div {
 main {
     background-color: cadetblue;
 }
-body {
-    background-color: aquamarine;
-}
-#firstdiv {
-    background-color: bisque;
-}
+
+
 header nav ul li {
     list-style-type: none;
     color: black;
     text-decoration: none;
 }
+ 
