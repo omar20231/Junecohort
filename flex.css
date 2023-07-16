@@ -1,0 +1,48 @@
+.flex-container {
+    background-color: beige;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    align-self: baseline;
+    align-content: space-around;
+
+}
+
+.flex-container div {
+    width:20%;
+    border: 1px solid black;
+    text-align: center;
+    margin: 10px;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+nav ol li {
+    list-style-type: none;
+    padding: 10px;
+    
+}
+h1 {
+    justify-content: flex-start;
+    display: flex;
+}
+nav ol li a {
+    text-decoration: none;
+    color: black;
+}
+nav ol {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+footer {
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+}
