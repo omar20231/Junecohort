@@ -58,3 +58,21 @@ for (let i=0;i<phrase.length;i++){
 console.log(equivalent.toUpperCase())
 console.log(`phrase is equal to ${phrase}`)
 console.log(`word equilivant is equal to ${equivalent.toUpperCase()}`)
+
+
+var list=["Milk" ,"Chocolate","Book","Pen","Bread","French toast"]
+
+for (let i=0;i<list.length;i++){
+    if (list[i]==="Milk"|| list[i]==="Chocolate"|| list[i]==="Bread"|| list[i]==="French toast"){
+        console.log("Food related")
+    }else if (list[i]==="Pen"|| list[i]==="Book"){
+        console.log("Education")
+    } else {
+        errorText()
+    }
+}
+
+
+function errorText(){
+    console.log("Your Item was not added to the database")
+}
