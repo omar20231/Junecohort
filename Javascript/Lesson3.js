@@ -51,8 +51,10 @@ if (array.length>=5){
 }
 //Days for statements 
 //You guessed right, there is more than on 2 days in a week.This is where else if omes to play
+
+
+
 let day="TUESDAY" 
-day.toLocaleLowerCase
  if (day==="Monday"||day==="Tuesday"||day==="Wednesday"||day==="Thursday"||day==="Friday"){
     console.log(`${day} is Weekday`)
  }else if (day=="Saturday"||day==="Sunday"){

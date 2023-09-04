@@ -41,7 +41,7 @@ if (array.includes(4)){
 
 /*Switch- this is a differnet type of connditional statement, this will help you if you already have 
 multiple conditional statements*/
-/*var day ="MONDAY" 
+var day ="MONDAY" 
 switch (day.toLowerCase()){
     case"monday":
     console.log(`Today is ${day}`)
@@ -66,9 +66,9 @@ switch (day.toLowerCase()){
     break;
 default:
     console.log("not possible")
-}*/
+}
 
-const score2 ="I got it"
+const score2 =90
 if (typeof score2 === "number"){
     switch(true){
         case(score2>=90 && score2 <=100):
