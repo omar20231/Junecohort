@@ -1,0 +1,144 @@
+.flex-container {
+    background-color: beige;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    align-self: baseline;
+    align-content: space-around;
+
+}
+
+.flex-container div {
+    width:20%;
+    text-align: center;
+    margin: 10px;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+nav ol li {
+    list-style-type: none;
+    padding: 10px;
+    
+}
+h1 {
+    justify-content: flex-start;
+    display: flex;
+}
+nav ol li a {
+    text-decoration: none;
+    color: black;
+}
+nav ol {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+footer {
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+}
+@media only screen and (max-width:400px){
+    body {
+        width: 100%;
+    }
+    .flex-container {
+        background-color: beige;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    align-self: baseline;
+    align-content: space-around;
+
+    }
+    img{
+        size: 30px;
+    }
+    header nav ol {
+        text-align: centre;
+        display:flex;
+        flex-direction: column;
+        border: 1px solid black;
+        padding: 0;
+        background-color: bisque;
+        
+    }
+    footer  address {
+        text-align: center;
+        align-items: center;
+    }
+}
+@media only screen and (max-width:375px){
+    body {
+        width: 100%;
+    }
+    .flex-container {
+        background-color: beige;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    align-self: baseline;
+    align-content: space-around;
+
+    }
+    img{
+        size: 30px;
+    }
+    header nav ol {
+        text-align: centre;
+        display:flex;
+        flex-direction: column;
+        border: 1px solid black;
+        padding: 0;
+        background-color: bisque;
+        
+    }
+    footer  address {
+        text-align: center;
+        align-items: center;
+    }
+}
+@media only screen and (max-width:430px){
+    body {
+        width: 100%;
+    }
+    .flex-container {
+        background-color: beige;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    align-self: baseline;
+    align-content: space-around;
+
+    }
+    img{
+        size: 30px;
+    }
+    header nav ol {
+        text-align: centre;
+        display:flex;
+        flex-direction: column;
+        border: 1px solid black;
+        padding: 0;
+        background-color: bisque;
+        
+    }
+    footer  address {
+        text-align: center;
+        align-items: center;
+    }
+}
+
