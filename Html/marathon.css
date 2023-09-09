@@ -26,7 +26,7 @@ section h2 {
 }
 #box1 {
     border: 1px solid black ;
-    width: 50%;
+    width: 20%;
     border-radius: 10px;
 }
 .flex{
@@ -44,4 +44,23 @@ section h2 {
 
 body {
     background-color: antiquewhite;
+}
+@media only screen and (max-width:250px){
+    body {
+        width: 100%;
+    }
+    header ul {
+        display: flex;
+        justify-content:flex-start;
+        flex-direction: column;
+    }
+    .flex {
+        width: 100%;
+    }
+    img {
+        width: 100%;
+    }
+    #box1 {
+        width:20%;
+    }
 }
