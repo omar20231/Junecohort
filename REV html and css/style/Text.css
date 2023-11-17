@@ -1,0 +1,40 @@
+p {
+    font-family: Arial;
+    margin-top: 0px;
+    margin-bottom:0px;
+}
+.video-title {
+    font-weight: bold;
+    font-style: italic;
+    font-size:25px;
+    margin-bottom: 5px;
+}
+.mini-title{
+    color: rgb(96, 96, 96);
+    margin-top:0px;
+    margin-bottom: 16px;
+}
+.Author {
+    margin-bottom: 16px;
+    color: rgb(96, 96, 96);
+}
+.Description{
+    color: rgb(96, 96, 96);
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 80px;
+}
+.short{
+    background-color: red;
+    padding: 15px;
+    text-align: center;
+    color:white;
+    font-size:14px;
+
+}
+
+.underline:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+    

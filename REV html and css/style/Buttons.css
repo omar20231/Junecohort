@@ -1,0 +1,51 @@
+.apply {
+    background-color:rgb(180, 5, 5);
+    border:none;
+    height: 50px;
+    width: 125px;
+    border-radius: 2px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 1s;
+}
+.apply:hover{
+    opacity: 0.8;
+}
+.apply:active{
+    opacity: 0.4;
+}
+.save{
+    background-color: white;
+    border-color: blue;
+    border-width: 1px;
+    height: 40px;
+    width: 85px;
+    color: blue;
+    border-radius:3px ;
+    margin-left: 10px;
+    cursor: pointer;
+    transition:background-color 1s ,
+    color 1s;
+}
+.save:hover{
+  background-color: rgb(31, 31, 230);
+  color: white;
+}
+.tweet {
+    background-color: #1DA1F2;
+    border:none;
+    margin-left: 10px;
+    height: 45px;
+    width: 79px;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    
+    
+}
+
+.tweet:hover{
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.15)
+}
+
