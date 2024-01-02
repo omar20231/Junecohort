@@ -1,3 +1,6 @@
+function errorMessage(){
+   console.log("error from functions")
+}
 /*Write a conditional statement to state if hero is a dc character or marvel character. 
 (i.e superman would be dc, spiderman would be marvel).*/
  let hero="omars"
@@ -12,7 +15,7 @@
  /*write a conditional statement taking age as variable and what year group they will be in a school 
  (i.e 11-16 will be secondary school year group, 16-18 college anyone above optional education). 
  (if this does not make sense please watch the summary video or the youtube video pasted above)*/
- let age =4
+ let age =1
  if (typeof age==="string"){
     console.log("error")
  }else if (age>=11 && age<16){
@@ -24,7 +27,7 @@
  }else if (age>18 && age<50){
     console.log("Optional education")
  }else {
-    console.log("error 2 ")
+    errorMessage()
  }
  
 
@@ -44,7 +47,7 @@
  }else if (day==="saturday"||day==="sunday"){
     console.log(`${day} is a weekend`)
  }else {
-    console.log("not possible")
+    errorMessage()
  }
 
  /* create a condition state ment for grading paper score 90 and above A*
@@ -65,6 +68,6 @@
  }else if (score>=60 && score<70){
    console.log("You have a C")
  }else {
-   console.log ("You have failed unfortunalty")
+   errorMessage()
  }
  
