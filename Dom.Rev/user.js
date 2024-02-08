@@ -31,7 +31,7 @@ const header=document.createElement("h1")
 header.innerText="Click me for a change"
 header.addEventListener(`click`,function(){
 var anwser=prompt("palidomrore word")
-var reversed=anwser.split(` `).reverse().join(``)
+var reversed=anwser.split(``).reverse().join(``)
 console.log(reversed)
 console.log(anwser)
 if (reversed===anwser){
